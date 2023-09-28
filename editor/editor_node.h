@@ -690,6 +690,8 @@ private:
 
 	void _begin_first_scan();
 
+	void _notify_scene_updated(Node *p_node);
+
 protected:
 	friend class FileSystemDock;
 
